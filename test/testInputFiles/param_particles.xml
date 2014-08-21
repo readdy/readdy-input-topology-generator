@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : param.particles.xml
+    Created on : 17. October 2011, 10:23
+    Author     : Schoeneberg
+    Description:
+    
+	space dimension is nm = 10^-9 m
+	time dimension is s = s
+
+	D = x mum^2 s^-1 = 10^+6 nm^2 s^-1
+	
+-->
+
+<param_particles version="1.1">
+	<!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+	<particle>		
+        <type>metaI</type>
+		<diffusionConstant>9.5e+5</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>1.795</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>2.29</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+	<particle>		
+        <type>metaII</type>
+		<diffusionConstant>9.5e+5</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>1.795</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>2.29</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+	<particle>		
+        <type>R</type>
+		<diffusionConstant>9.5e+5</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>1.795</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>2.29</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+	<particle>		
+        <type>G</type>
+		<diffusionConstant>1.63e+6</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</collisionRadius>
+			<collisionRadius>
+				<partnerType>metaI,metaII,R</partnerType>
+				<radius>0.58</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>2.6</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+		<!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+	<particle>		
+        <type>G*</type>
+		<diffusionConstant>1.63e+6</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</collisionRadius>
+			<collisionRadius>
+				<partnerType>metaI,metaII,R</partnerType>
+				<radius>0.58</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>2.6</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+	<particle>		
+        <type>R*_Ggdp_cplx</type>
+		<diffusionConstant>9.5e+5</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3.0</radius>
+			</collisionRadius>
+			<collisionRadius>
+				<partnerType>metaI,metaII,R</partnerType>
+				<radius>2.0</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+	<particle>		
+        <type>R*_G0_cplx</type>
+		<diffusionConstant>9.5e+5</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3.0</radius>
+			</collisionRadius>
+			<collisionRadius>
+				<partnerType>metaI,metaII,R</partnerType>
+				<radius>2.0</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+	<particle>		
+        <type>R*_Ggtp_cplx</type>
+		<diffusionConstant>9.5e+5</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3.0</radius>
+			</collisionRadius>
+			<collisionRadius>
+				<partnerType>metaI,metaII,R</partnerType>
+				<radius>2.0</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<!--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+</param_particles>
+	

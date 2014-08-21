@@ -1,0 +1,210 @@
+<param_particles version="1.0">
+	
+<!--
+    Document   : param.particles.xml
+    Created on : 10th January 2013
+    Author     : schoeneberg
+
+    
+	space dimension is nm = 10^-9 m
+	time dimension is ns = 10^-9 s
+
+	dimension of diffusion constant is nm^2/ns
+	conversion between usual dimension and the readdy value:
+	D = x um^2/s = 10^-3 x nm^2/ns
+	
+-->
+
+<particles>
+	<particle>		
+        <type>A</type>
+		<diffusionConstant>0.0007</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<!-- 'default' radius is taken for default except otherwise defined-->
+				<partnerType>default</partnerType>
+				<radius>1.4</radius>
+			</collisionRadius>
+			<collisionRadius>
+				<partnerType>B</partnerType>
+				<radius>1</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>1</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<particle>		
+        <type>B</type>
+		<diffusionConstant>0.0014</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>1.185</radius>
+			</collisionRadius>
+			<collisionRadius>
+				<partnerType>A</partnerType>
+				<radius>0.5</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>1</radius>
+			</reactionRadius>
+			<reactionRadius>
+				<partnerType>ABcmplx</partnerType>
+				<radius>10</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<particle>		
+        <type>ABcmplx</type>
+		<diffusionConstant>0.05</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<particle>		
+        <type>A1</type>
+		<diffusionConstant>0.05</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<particle>		
+        <type>A2</type>
+		<diffusionConstant>0.05</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<particle>		
+        <type>dummyFissile</type>
+		<diffusionConstant>0.05</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<particle>		
+        <type>dummyFissionProduct1</type>
+		<diffusionConstant>0.05</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<particle>		
+        <type>dummyFissionProduct2</type>
+		<diffusionConstant>0.05</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<particle>		
+        <type>dummyEnzyme</type>
+		<diffusionConstant>0.05</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<particle>		
+        <type>dummyLigand</type>
+		<diffusionConstant>0.05</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+	<particle>		
+        <type>dummyProduct</type>
+		<diffusionConstant>0.05</diffusionConstant>		
+		<collisionRadiusMap>
+			<collisionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</collisionRadius>
+		</collisionRadiusMap>		
+		<reactionRadiusMap>
+			<reactionRadius>
+				<partnerType>default</partnerType>
+				<radius>3</radius>
+			</reactionRadius>
+		</reactionRadiusMap>
+	</particle>
+</particles>
+</param_particles>
+	

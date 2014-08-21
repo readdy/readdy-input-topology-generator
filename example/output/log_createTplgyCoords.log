@@ -1,0 +1,72 @@
+Fri Jan 11 10:38:06 CET 2013
+<============<ReaDDy_TopologyCoordsCreator v="1.0">===========>
+<= (c) 2010-2013, Johannes Schoeneberg, Frank Noe, FU Berlin =>
+<=============================================================>
+setup TopologyCoordsCreator...
+parse global_parameters...
+parsing param_global file: /Users/johannesschoeneberg/NetBeansProjects/ReaDDy_TplgyCoordsCreator/example/./input/param_global.xml
+... done.
+parse param_particles...
+parsing param_particles file: /Users/johannesschoeneberg/NetBeansProjects/ReaDDy_TplgyCoordsCreator/example/./input/param_particles.xml
+... done.
+generate potentialManager...
+parsing param_potentialTemplates file: /Users/johannesschoeneberg/NetBeansProjects/ReaDDy_TplgyCoordsCreator/example/./input/param_potentialTemplates.xml
+... done.
+parsing tplgy_potentials file: /Users/johannesschoeneberg/NetBeansProjects/ReaDDy_TplgyCoordsCreator/example/./input/tplgy_potentials.xml
+... done.
+... potentialManager generated.
+parse param_groups...
+parsing param_groups file: /Users/johannesschoeneberg/NetBeansProjects/ReaDDy_TplgyCoordsCreator/example/./input/param_groups.xml
+... done.
+parse input_copyNumbers...
+parsing input_copyNumbers file: /Users/johannesschoeneberg/NetBeansProjects/ReaDDy_TplgyCoordsCreator/example/./input/in_copyNumbers.csv
+... done.
+... TopologyCoordsCreator setup done.
+=============================================================
+start topology building...
+-------------------------------------------------------------
+<order of coordinate generation (larger entities first)>
+A_TETRAMER
+A_DIMER
+A
+B
+</order of coordinate generation (larger entities first)>
+-------------------------------------------------------------
+build group-tplgy for A_TETRAMER...
+<groupAnchor>
+<ExtendedIdAndType group=false id=2 type=0/>
+... using the anchor potential: attractiveDisk_1
+</groupAnchor>
+1/1 placed.
+-------------------------------------------------------------
+build group-tplgy for A_DIMER...
+<groupAnchor>
+<ExtendedIdAndType group=false id=1 type=0/>
+... using the anchor potential: attractiveDisk_1
+</groupAnchor>
+1/1 placed.
+-------------------------------------------------------------
+build particle-tplgy for A...
+... using the anchor potential: attractiveDisk_1
+1/3 placed.
+3/3 placed.
+-------------------------------------------------------------
+build particle-tplgy for B...
+... using the anchor potential: attractiveCylinder_1
+1/3 placed.
+3/3 placed.
+-------------------------------------------------------------
+tplgy built!
+=============================================================
+generate output...
+xyz file:
+/Users/johannesschoeneberg/NetBeansProjects/ReaDDy_TplgyCoordsCreator/example/./output/tplgy_coordinates.xyz
+tplgy_coordinates file:
+/Users/johannesschoeneberg/NetBeansProjects/ReaDDy_TplgyCoordsCreator/example/./output/tplgy_coordinates.xml
+tplgy_groups file:
+/Users/johannesschoeneberg/NetBeansProjects/ReaDDy_TplgyCoordsCreator/example/./output/tplgy_groups.xml
+... done.
+<===========</ReaDDy_TopologyCoordsCreator v="1.0">===========>
+
+Fri Jan 11 10:38:06 CET 2013
+seconds elapsed 0

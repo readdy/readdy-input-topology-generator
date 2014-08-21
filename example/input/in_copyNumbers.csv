@@ -1,0 +1,14 @@
+# ----- PARTICLES -----
+A, 3
+B, 3
+# ----- GROUPS -----
+A_DIMER, 1
+A_TETRAMER, 1
+
+
+# ----- PARTICLES -----
+#A, 10
+#B, 200
+# ----- GROUPS -----
+#A_DIMER, 10
+#A_TETRAMER, 30
