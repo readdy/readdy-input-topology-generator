@@ -63,7 +63,7 @@ public class Main {
         ITplgyCoordsCreator coordsCreator = tplgyCoordsCreatorFactory.createTplgyCoordsCreator();
         coordsCreator.createTplgyCoordinates();
         coordsCreator.write_tplgyCoordinates_file();
-        System.out.println("<===========</ReaDDy_TopologyCoordsCreator v=\"1.0\">===========>");
+        System.out.println("<===========</ReaDDy_TopologyCoordsCreator v=\"1.1\">===========>");
     }
 
     private static HashMap<String, String> parseCommandLineArguments(String[] args, String[] essentialInputFileKeys, String[] optionalInputFileKeys) {
